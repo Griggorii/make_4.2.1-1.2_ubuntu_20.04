@@ -1,0 +1,42 @@
+Format: 1.8
+Date: Sun, 26 Sep 2021 13:31:48 +0800
+Source: make-dfsg
+Binary: make make-guile
+Architecture: source amd64
+Version: 4.2.1-1.2
+Distribution: unstable
+Urgency: medium
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Changed-By: Griggorii <griggorii@gmail.com>
+Description:
+ make       - utility for directing compilation
+ make-guile - utility for directing compilation with guile support
+Changes:
+ make-dfsg (4.2.1-1.2) unstable; urgency=medium
+ .
+   * New Upsrteam release.
+   * Fix build ffmpeg please not regression danger damage ffmpeg stable compilation
+Checksums-Sha1:
+ b48d93373b37158e40272adf12660d2baf69e35d 1136 make-dfsg_4.2.1-1.2.dsc
+ b95618c6c22a9b1897574f632ad130a664a1c0f4 53180 make-dfsg_4.2.1-1.2.diff.gz
+ f79aa5ca2b85714ebf62c38c53997b286a6b88b2 284368 make-dbgsym_4.2.1-1.2_amd64.ddeb
+ f87d695fda5c780bf6ab8ee281ade4bade4247f4 6969 make-dfsg_4.2.1-1.2_amd64.buildinfo
+ 4daebd5729d58420161dc8ebab29254d74a049c5 292916 make-guile-dbgsym_4.2.1-1.2_amd64.ddeb
+ 06765b17bc1a98562f94149cd899091ce3099785 325116 make-guile_4.2.1-1.2_amd64.deb
+ 6e654b5c04338202cdd3683b1512abadc6630a80 324368 make_4.2.1-1.2_amd64.deb
+Checksums-Sha256:
+ 0d93c2ee64eab826e0a73ce66232c3f8ec0967a0263e489e7c611df569c38e58 1136 make-dfsg_4.2.1-1.2.dsc
+ 3dd9526eaeae3e3aa21b5f6a918cbccb11e8e0860ebbe461b16f138e9c1b6ce2 53180 make-dfsg_4.2.1-1.2.diff.gz
+ 7df798d6efa5ea2aaacb5d90f1d21f9ec44c9f38cdf3f3adb365bb109066f9ff 284368 make-dbgsym_4.2.1-1.2_amd64.ddeb
+ 67b7554446c22c6d856d9c69fff2cd20324b032817f2195bc8ae63298e4ec289 6969 make-dfsg_4.2.1-1.2_amd64.buildinfo
+ e8089f90785f886a67011e6ef3401bcdbe749d20856c7b522bd3895cacf9e3cd 292916 make-guile-dbgsym_4.2.1-1.2_amd64.ddeb
+ b3e30eb2e43b5e5133bb7868fa7fc5c4670701d034ea3c24da6924833b525759 325116 make-guile_4.2.1-1.2_amd64.deb
+ 73188e22c4dfe82c46d0998ccd76ec98b6a188526f0aaaf04cce2369cd76fe9c 324368 make_4.2.1-1.2_amd64.deb
+Files:
+ 97ba64d7402b19823c5f3057773aba80 1136 devel optional make-dfsg_4.2.1-1.2.dsc
+ 3dc4d9e6492ce2a32a827c8a4c87ede4 53180 devel optional make-dfsg_4.2.1-1.2.diff.gz
+ c924a7478a8d2d128ffbc26b18c5af60 284368 debug optional make-dbgsym_4.2.1-1.2_amd64.ddeb
+ 6000f8a87f5d188c47ff1c1d11da16fd 6969 devel optional make-dfsg_4.2.1-1.2_amd64.buildinfo
+ 39ea8c1fc1a9db9e7d76228e418d942a 292916 debug optional make-guile-dbgsym_4.2.1-1.2_amd64.ddeb
+ 4c485074908cd014818bc3dad5d76fb5 325116 devel extra make-guile_4.2.1-1.2_amd64.deb
+ b496af7489307ce03be5997c71f9a4f8 324368 devel optional make_4.2.1-1.2_amd64.deb
